@@ -49,3 +49,50 @@
         color: white;
     }
 }
+
+@media (max-width: 480px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        width: 100%;
+    }
+
+    .f-redes-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .f-redes-container h2 {
+        color: white;
+    }
+
+    .f-redes {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .f-redes svg {
+        color: white;
+        cursor: pointer;
+    }
+
+    .f-info {
+        color: white;
+    }
+
+    .copyrigth {
+        background-color: rgb(0, 0, 81);
+    }
+
+    .copyrigth h5 {
+        margin: 0;
+        text-align: center;
+        color: white;
+    }
+}

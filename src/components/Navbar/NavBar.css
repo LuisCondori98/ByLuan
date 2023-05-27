@@ -104,6 +104,14 @@
         background-color: white;
     }
 
+    .logo-nav {
+        display: none;
+        height: 20px;
+        margin-bottom: 15px;
+        color: white;
+        font-family: 'Righteous', cursive;
+    }
+
     .navbar {
         background-color: black;
     }
@@ -115,5 +123,12 @@
 
     .navbar-nav .nav-item .link {
         color: white;
+        padding: 5px;
+    }
+
+    .navbar-nav .nav-item .ActiveLink {
+        color: white;
+        padding: 5px;
+        text-decoration: overline;
     }
 }

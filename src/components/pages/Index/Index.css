@@ -21,10 +21,18 @@ body {
         font-weight: 600;
     }
 
+    .banner {
+        overflow: hidden;
+    }
+
     .banner img {
         background-color: rgb(203, 0, 0);
         padding: 3px;
         object-fit: contain;
+    }
+
+    .banner img:hover {
+        transform: scale(1.5);
     }
 }
 
