@@ -1,0 +1,20 @@
+@keyframes juice {
+    0% {
+        margin-left: 800px;
+    }
+}
+
+.pagos {
+    position: fixed;
+    bottom: 0;
+    background-color: crimson;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.pagos h5 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@keyframes slide {
+    0% {
+        margin-right: 900px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navbar {
+        background-color: black;
+    }
+
+    .logo-nav {
+        display: none;
+        height: 20px;
+        margin-bottom: 30px;
+        color: white;
+        font-family: 'Righteous', cursive;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s ease-in-out;
+        animation: slide 0.5s ease-in-out;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 70px;
+        font-size: 22px;
+        transition: .4s ease-in-out;
+    }
+
+    .navbar-nav .nav-item .link {
+        color: white;
+        padding: 5px;
+    }
+
+    .navbar-nav .nav-item .link:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .navbar-nav .nav-item .ActiveLink {
+        color: white;
+        padding: 5px;
+        text-decoration: overline;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 70px;
+        font-size: 22px;
+    }
+
+    .navbar-nav .nav-item .link {
+        color: white;
+        padding: 5px;
+    }
+
+    .navbar-nav .nav-item .link:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 992px) {
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 50px;
+    }
+
+    .navbar-nav .nav-item .link {
+        color: white;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 50px;
+    }
+
+    .navbar-nav .nav-item .link {
+        color: white;
+    }
+}

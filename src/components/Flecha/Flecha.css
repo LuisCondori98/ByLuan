@@ -1,0 +1,23 @@
+@media(min-width: 1280px){
+    .flecha svg {
+        position: fixed;
+        top: 80vh;
+        right: 100px;
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+        border: white solid 2px;
+        display: none;
+    }
+}
+
+@media(max-width:480px) {
+    .flecha svg {
+        position: fixed;
+        top: 800px;
+        right: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+    }
+}

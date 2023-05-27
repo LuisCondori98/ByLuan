@@ -1,0 +1,16 @@
+@media (min-width: 1280px) {
+    .banner {
+        background-color: rgb(192, 0, 0);
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 5px;
+    }
+
+    .close {
+        position: absolute;
+        right: 0;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
